@@ -15,7 +15,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h1 className="mb-0">
-            {config.firstName}
+            {config.firstName} <br></br>
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
@@ -23,10 +23,8 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          “In God we trust, all others bring data.”  <br></br>
+          — W Edwards Deming
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -52,8 +50,8 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Digital Analyst</h3>
+              <div className="subheading mb-3">Q-sushi.it - Milan, IT</div>
               <p>
                 Bring to the table win-win survival strategies to ensure
                 proactive domination. At the end of the day, going forward, a
@@ -64,14 +62,14 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
+              <span className="text-primary">June 2020 - Present</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
+              <h3 className="mb-0">Data Analyst</h3>
+              <div className="subheading mb-3">ADC Srl - Milan, IT</div>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
                 added activity to beta test. Override the digital divide with
@@ -81,14 +79,14 @@ const IndexPage = () => (
               </p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
+              <span className="text-primary">February 2017 - February 2019</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
+              <h3 className="mb-0">Junior Account Manager</h3>
+              <div className="subheading mb-3">Le Nouveau, NYC, New York, USA</div>
               <p>
                 Podcasting operational change management inside of workflows to
                 establish a framework. Taking seamless key performance
@@ -102,22 +100,12 @@ const IndexPage = () => (
             </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
+          
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              
             </div>
-          </div>
-        </div>
+         
       </section>
 
       <hr className="m-0" />
@@ -131,27 +119,43 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">UNIVERSITA' DEGLI STUDI DI PAVIA</h3>
+              <div className="subheading mb-3">Master Of Science</div>
+              <div>Digital Management [Python, Mysql, Digital Marketing, Information System]</div>
+              <p></p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">September 2018 - July 2020</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">UNIVERSITA' CATTOLICA DEL SACRO CUORE</h3>
+              <div className="subheading mb-3">First Level Specializing Master</div>
+              <div>International Management [Accounting, Marketing,Financial Analysis]</div>
+              <p></p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">September 2016 - July 2017</span>
             </div>
           </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
             <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
+              <h3 className="mb-0">UNIVERSITA' DEGLI STUDI DI MILANO</h3>
+              <div className="subheading mb-3">BA</div>
+              <div> Political Science [Marketing, Cognitive Psychology,Economics, Statistics]</div>
+              <p></p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
+              <span className="text-primary">September 2013 - July 2016</span>
             </div>
           </div>
         </div>
+
+        
+        
       </section>
 
       <hr className="m-0" />
@@ -164,68 +168,79 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Programming Languages &amp; Tools:
           </div>
+          
           <ul className="list-inline dev-icons">
+          <li className="list-inline-item">
+          <i className="fab fa-python"></i>
+        </li>
+        <li className="list-inline-item">
+              <i className="fas fa-database"></i>
+            </li>
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
             </li>
+          
             <li className="list-inline-item">
               <i className="fab fa-css3-alt"></i>
             </li>
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
+            </li> 
             <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-wordpress"></i>
             </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
+           
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+         
+
+          <div className="subheading mb-3">My Main Activities:</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Excel
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Tableau
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Anaconda For Machine Learning Activities
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+             Sketch &amp; Marvel
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+             Machine Learning &amp; Deep Learning
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+             Advanced Facebook Ads; Google Analytics, Firebase Analytics, Google Ads
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Interacting with Mobile Apps - Web Apps
             </li>
           </ul>
         </div>
+
+        
+        
+        
       </section>
+
+      
 
       <hr className="m-0" />
 
@@ -293,6 +308,8 @@ const IndexPage = () => (
           </ul>
         </div>
       </section>
+      
+      
     </div>
   </Layout>
 );
